@@ -1,0 +1,16 @@
+<!--comments here.-->
+
+{% extends "base/base.html" %}
+{% block title %}The current time{% endblock %}
+{% block header %} {% include "includes/header.html" %}  {% endblock %}
+{% block content %}
+	<table width="100%">
+		<tr>
+			<td width="20%"> {% include "includes/left_menu.html" %}  </td>
+			<td>{% block main_contents%} {% endblock %}</td>
+		</tr>
+	</table>
+{% endblock %}
+{% block footer%} {% include "includes/footer.html" %}  {% endblock %}
+
+

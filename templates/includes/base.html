@@ -1,0 +1,23 @@
+<!-- 
+	variables list:
+	1. title
+	2. header
+	3. content
+	4. footer 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+	<script src="/static/js/jquery-1.8.3.js"></script>
+    <link href="/static/css/page/base.css" rel="stylesheet" type="text/css" /> 
+	{% block scripts %} {% endblock %}
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+    <div id="home">
+        <div id="divHeader">{% block header %}{% endblock %}</div>
+        <div id="divContents">{% block content %}{% endblock %}</div>
+        <div id="divFooter">{% block footer %} {% endblock %}</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{% extends "includes/content_1.html" %}
+{% block user_scripts %}
+	<script src="/static/js/stock.js"></script>
+{% endblock %}
+{% block content %}
+    <form id="frmQuery">
+        {% csrf_token %}
+        <input type="hidden" name="stock_code" value="{{stock_code}}"/>
+    </form>
+    <div>
+        <div style="float:left"> left panel 
+            <div> recent items </div>
+            <div> relative items of same industry </div>
+        </div>
+        <div> contents
+            <div>
+                <a href="javascript:showProfile();">Profile</a>
+                <a href="javascript:showFinanceIndex();"> Finance Index</a>
+                <a href="javascript:showFinancePrediction();">Finance Predictions </a>
+                <a href="javascript:showFinanceIndexRank();">Finance Index Rank</a>
+            </div>
+            <div id="stock_contents">
+               {% include "stock/finance_index_rank.html" %} 
+            </div>
+        </div>
+    </div>
+{% endblock %}

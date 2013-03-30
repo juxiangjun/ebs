@@ -1,0 +1,17 @@
+#divHeader
+{
+    height:30px;
+}
+
+#divContents
+{
+
+}
+#divFooter
+{
+    background:#ccc;
+    bottom:0px;
+    line-height:30px;
+    height:30px;
+    position:absolute
+}

@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-17 07:48-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+# public
+msgid "public.str.stock.code"
+msgstr "股票代码"
+
+msgid "public.str.submit"
+msgstr "提交"
+
+msgid "public.str.query"
+msgstr "查询"
+
+msgid "public.str.login"
+msgstr "登录"
+
+msgid "form.title.search.stock"
+msgstr "个股查询"
+
+msgid "stock.code"
+msgstr "股票代码"
+
+
+
+#index.html
+msgid "index.form.title"
+msgstr "登录"
+
+#: forms.py:8
+msgid "login.user_name"
+msgstr "用户名"
+
+#: forms.py:12
+msgid "login.password"
+msgstr "密码"
